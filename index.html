@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classificador de Nível de Herói</title>
+        <link rel="shortcut icon" type="image/png" href="xpHero.png">
+    </head>
+
+    <body style="background-color: black; color: white; text-align: center; margin-top: 50px;">
+
+        <img src="xpHero.png" alt="logo xpHero" width="300px;">
+        <h1> Classificador de Nível de Herói </h1>
+        <p> Insira o nome do Herói: </p>
+        <input type="text" id="nameHero">
+        <p> Insira o nível de experiência desse herói: </p>
+        <input type="number" id="xpHero">
+        <br>
+        <button onclick="send()" style="background-color: darkred; color: antiquewhite; margin-top: 20px; border-radius: 8px;"> Enviar </button>
+        <div id="result"></div>
+
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>
